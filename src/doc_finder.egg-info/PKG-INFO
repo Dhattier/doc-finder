@@ -1,0 +1,30 @@
+Metadata-Version: 2.4
+Name: doc-finder
+Version: 0.1.0
+Summary: Add your description here
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=2.4.6
+Requires-Dist: pydantic>=2.13.4
+Requires-Dist: pytest>=9.0.3
+Requires-Dist: pyyaml>=6.0.3
+Requires-Dist: rich>=15.0.0
+Requires-Dist: sentence-transformers>=5.5.1
+Requires-Dist: typer>=0.26.2
+
+# DocFinder
+
+DocFinder is a small local semantic search tool for text notes.
+
+It can:
+- read `.txt`, `.md`, and `.docx` documents from a folder
+- split documents into chunks
+- embed chunks locally
+- save a local index
+- search for relevant passages by meaning
+
+## Planned commands
+
+```bash
+docfinder ingest sample_docs/
+docfinder search "what are the risks of NFV"

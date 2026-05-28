@@ -1,0 +1,27 @@
+Introduction:
+This document provides an overview of infrastructure as a service (IaaS), software as a service (Saas), alongside deployment models such as private, hybrid, and community cloud. Each option has distinct security implications and use cases, and this evaluation aims to guide informed decision making.
+
+IaaS:
+IaaS provides pay as you go model with scalable resources which will reduce our upfront capital expenses. Additionally, IaaS allows for full control of the infrastructure used and is ideal of disaster recovery and development environments. 
+On the other hand, IaaS places the responsibility of set up, configuration, and managing security on our teams. This means that we need staff capable of these tasks, and we are not sharing the liability of vulnerabilities with another institution.
+Potential uses cases for IaaS include hosting virtual machines, testing environments, and backup/recovery solutions. 
+
+PaaS: Platform as a service
+PaaS provides built in supported tools and languages which may allow for faster deployment and development cycles. We would not have control over the underlying cloud infrastructure. This may be a good choice for applications and API deployment.
+
+SaaS:
+SaaS is our least hands on option. While we may have limited applications settings to set, management of the underlying cloud infrastructure will be taken care of for us by the provider. This does limit our control and makes us dependent on the providers security solution. This is a great option for our email services and applications where we do not need a great deal of control.
+
+Private Cloud Deployment:
+Private cloud deployment provides high security control, and a high degree of customization. This option is costly though in both capital, labor, and time investment. This is well suited for sensitive data and where required by law.
+
+Public Cloud Deployment:
+Rapid deployment and scaling all with outsourced maintenance responsibilities. Less control over infrastructure and security. May not be compliant with regulations depending on the use case. This is well suited for short term projects and data storage where allowed by law.
+
+Hybrid and Community Cloud Deployment:
+Hybrid model allows for scaling beyond our own infrastructure and allows for partitioning data based on sensitivity. However, this can be complex to set up and manage. This is well suited in use cases where only part of our workflow must be done locally and where the rest would benefit from rapid/dynamic scaling. 
+Community Cloud Deployment allows us to share cost and collaboration with other organizations. We would have less control compared to the private cloud model. This may be well suited for use cases where we are sharing information will other financial companies often. 
+
+Conclusion:
+Our choice of model will impact our security requirements, budget, scaling concerns, and our regulatory compliance. IaaS and Private Cloud models provides the highest degree of customization and control, but at the highest upfront cost. Saas and Public Cloud models offer simplicity and low upfront costs but with reduced control. A hybrid approach may offer the best path forward for our company, ensuring that sensitive data stays protected while leveraging the strengths of SaaS, public and community cloud deployment. 
+

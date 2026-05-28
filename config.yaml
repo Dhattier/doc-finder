@@ -1,0 +1,9 @@
+cat > config.yaml <<'EOF'
+docs_path: sample_docs
+index_dir: .docfinder
+embedding_model: sentence-transformers/all-MiniLM-L6-v2
+chunk_size: 500
+chunk_overlap: 75
+top_k: 5
+include_extensions:
+  - .txt
