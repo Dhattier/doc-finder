@@ -13,3 +13,5 @@ dependencies = [
     "sentence-transformers>=5.5.1",
     "typer>=0.26.2",
 ]
+[project.scripts]
+docfinder = "docfinder.cli:app"

@@ -29,6 +29,6 @@ def build_chunk_index(
                     "text": chunk,
                 }
             )
-            chunk_id = 1
+            chunk_id += 1
 
     return records

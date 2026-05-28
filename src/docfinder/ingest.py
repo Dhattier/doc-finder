@@ -17,8 +17,10 @@ def load_documents(docs_path: str | Path) -> list[dict[str, str]]:
     for file_path in sorted(path.iterdir()):
         if file_path.suffix.lower() not in SUPPORTED_EXTENSIONS:
             continue
-            
-        text  = file_path.read_text(encoding="utf-8").strip()
+        try:   
+            text  = file_path.read_text(encoding="utf-8").strip()
+        except UnicodeDecodeError:
+            text = file_path.read_text(encoding="cp1252").strip()
 
         if not text:
             continue
